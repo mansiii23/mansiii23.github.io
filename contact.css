@@ -1,0 +1,113 @@
+.contactDetails {
+   background: url(images/p5.jpg);
+   background-size: cover;
+}
+.contactDetails .container {
+  padding-top:85px;
+  padding-bottom:90px;
+}
+.contactDetails h4 {
+
+  font-weight:600;
+  text-transform:uppercase;
+  padding-bottom:15px;
+  color: #000;
+}
+.contactDetails p {
+  color:#000;
+  font-size:13px;
+  line-height:19px;
+  padding-bottom:14px;
+}
+.contactDetails p a {
+  color:#000;
+}
+.contactDetails p a:hover {
+  color:red;
+  text-decoration:none;
+}
+.contactDetails i {
+  padding-right:15px;
+}
+.conForm input {
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  color:#fff;
+  padding:15px 30px;
+  border:none;
+  margin-right:3%;
+  margin-bottom:30px;
+  outline:none;
+  font-style:italic;
+}
+.conForm input.noMarr {
+  margin-right:0px;
+}
+.conForm textarea {
+  background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  color:#fff;
+  padding:15px 30px;
+  border:none;
+  margin-bottom:40px;
+  outline:none;
+  height:100px;
+  font-style:italic;
+}
+.conForm .submitBnt {
+  background:#ff675f;
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
+  font-size:16px;
+  font-weight:600;
+  text-align:center;
+  float:right;
+  margin:0px;
+}
+.conForm .submitBnt:hover {
+  background:#f5534b;
+}
+.textGroup {
+  position:relative !important;
+  display: inline-block;
+  padding-left:0px !important;
+}
+
+/*----------------------------------------------------
+  Footer Style
+------------------------------------------------------*/
+.footer {
+  background:#00bdbd;
+}
+.footer .container {
+  padding:40px 0;
+}
+.footer ul {
+  margin:0 auto;
+  text-align:center;
+  list-style-type:none;
+}
+.footer ul li {
+  display:inline-block;
+  text-align:center;
+  background:#ffffff;
+  color:#00bdbd;
+  line-height:42px;
+  margin:0 6px;
+  width:42px !important;
+  height:42px !important;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.footer ul li:hover {
+  background:#0a9f9f;
+}
+.footer ul li:hover a {
+  color:#fff;
+}
+.footer ul li a {
+  color:#00bdbd;
+  width:42px !important;
+  height:42px !important;
+}
+.footer ul li a i {
+  line-height:42px !important;
+}

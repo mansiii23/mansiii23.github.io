@@ -1,0 +1,93 @@
+.technical{
+	background-color: #eeeeee;
+}
+.technical .container {
+	padding-top:85px;
+	padding-bottom:69px;
+
+}
+.technical .heading {
+	padding-bottom:41px;
+	text-align: center;
+}
+.technical p {
+	color:#474d5d;
+}
+.technical h1 {
+	color:#ff675f;
+}
+.technical .skillsArea {
+	padding:0px;
+}
+.technical .skills {
+	margin:0 auto;
+	margin-bottom:23px;
+	text-align:center;
+	padding:10px;
+	float:none;
+}
+.technical .skills p {
+	color:#84868d;
+	font-size:13px;
+	line-height:18px;
+	text-align:center;
+}
+.technical .skills img {
+	margin:0 auto;
+	margin-bottom:33px;
+	width:100%;
+	max-width:152px;
+}
+.technical .skills h4 {
+	font-weight:700;
+	text-transform:uppercase;
+}
+.skilBg1 {
+	content: url(images/skill5.png);
+}
+.skilBg2{
+	content: url(images/skill6.png);
+}
+.skilBg3{
+	content: url(images/skill4.png);
+}
+.skilBg4{
+	content: url(images/skill2.png);
+}
+.skilBg5{
+	content: url(images/skill6.png);
+}
+.skilBg6{
+	content: url(images/skill5.png);
+}
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 152px;
+	height: 152px;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.percent {
+	display: inline-block;
+	font-size:21px;
+	color:#474d5d;
+	line-height: 152px;
+	z-index: 2;
+}
+.percent:after {
+	content: '%';
+	margin-left: 0.1em;
+	font-size: .8em;
+}
+.angular {
+	margin-top: 100px;
+}
+.angular .chart {
+	margin-top: 0;
+}

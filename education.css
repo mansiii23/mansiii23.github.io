@@ -1,0 +1,64 @@
+.resume{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+
+.resume .heading {
+	padding-bottom:41px;
+	text-align: center;
+}
+.resume p {
+	color:#474d5d;
+}
+.resume h1 {
+	color:#ff675f;
+}
+
+.timeline{
+	list-style-type:none;
+	position: relative;
+}
+
+.timeline:before
+{
+	content:'';
+	background:#555;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height:100%;
+	z-index: 1;
+}
+
+.timeline li
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 80px;
+	background: #eeeeee;
+}
+
+.timeline li h4{
+	background-color: #ff675f;
+	padding: 5px 0 5px 20px;
+	color: #000;
+	font-size: 15px;
+}
+
+
+.timeline li:before
+{
+	content: '';
+	background: #fff;
+	display: inline-block;
+	position:absolute;
+	border-radius: 50%;
+	border: 3px solid #000;
+	left: 20px;
+	width: 20px;
+	height:20px;
+	z-index: 1;
+}
